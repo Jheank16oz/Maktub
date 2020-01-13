@@ -9,7 +9,7 @@ import org.mockito.Mockito.mock
 import org.mockito.Mockito.verify
 
 
-class AddPlaceTest{
+class SavePlaceShould{
 
     @Mock
     lateinit var place:Place
@@ -18,7 +18,7 @@ class AddPlaceTest{
     lateinit var savePlace: SavePlace
 
     @Test
-    fun addPlace(){
+    fun save(){
 
         given_a_place()
         when_save_place_action_execute()
